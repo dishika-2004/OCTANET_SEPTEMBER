@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="task-input">
+            <i class="fa-solid fa-bars"></i>
+            <input type="text" placeholder="Add a new task">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">All</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+        </div>
+        <ul class="task-box">
+            
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>Do practice ques of NALR</p>
+                </label>
+                <div class="settings">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>Octanet Internship</p>
+                </label>
+                <div class="settings">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>Do coding</p>
+                </label>
+                <div class="settings">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>Upload task 2 on linkedIn</p>
+                </label>
+                <div class="settings">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
